@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: rgb(17, 16, 17);
+  background-image: url("https://i.pinimg.com/originals/4d/3a/8c/4d3a8ca3867ddbcde41a94655be3b415.jpg");
+  background-size: 1700px 800px;
+  padding: 5vh;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+.box {
+  border: rgb(255, 255, 255) solid 1px;
+  width: 30vw;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.isChecked {
+  text-decoration: line-through;
+}
+.check {
+  height: 15px;
+  width: 15px;
+}
+#notes {
+  margin: 0 auto 0px;
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.preview {
+  margin: 0 auto 16px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  border-radius: 8px;
+}
+.preview {
+  border-radius: 8px;
+  /* padding: 10px; */
+}
+
+.note {
+  background-color: #171717;
+  /* border: 8px solid #d4daa7; */
+  padding: 10px;
+  /* margin: 16px 0; */
+  cursor: pointer;
+}
+
+.preview {
+  background-color: #171717;
+  /* border: 8px solid #4caf50; */
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+input,
+button {
+  padding: 10px;
+}
+#deleteButton {
+  background-color: #8028c3;
+  border: none;
+  border-radius: 50px;
+  width: 35px;
+  font-size: 15px;
+}
+button {
+  background-color: #8028c3;
+  border: none;
+  border-radius: 50px;
+  width: 55px;
+  /* padding: 15px; */
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+.remove {
+  background-color: #ff0000;
+}
+
+.remove:hover {
+  background-color: #b20e0e;
+}
+
+.lucky {
+  background-color: #63e168;
+}
+
+.lucky:hover {
+  background-color: #4caf50;
+}
+
+button:focus {
+  outline: none;
+}
+#new-note {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 20px;
+}
